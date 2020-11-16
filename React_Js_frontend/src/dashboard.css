@@ -1,0 +1,98 @@
+.home-title{    
+	color: var(--mainorange);
+	font-size: 25px;
+	font-family: 'Product Sans Bold';
+}
+.explore-title {
+	color: var(--maintextcolor);
+	font-size: 20px;
+	margin-top: 10px;
+}
+
+.dashboard-topbox{
+	margin-top: 40px;
+}
+
+.dashboard-account-box{
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+
+.dashboard-events-topbox{
+	margin-top: 50px;
+	margin-bottom: 25px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.dashboard-event-title {
+	font-family: 'Product Sans Bold';
+	font-size: 25px;
+	display: inline-block;
+	color: var(--maintextcolor);
+}
+
+.dashboard-dropdown{
+	margin-right: 0px !important;
+}
+
+.db-user-image{
+	width: 50px;
+	height: 50px;
+}
+.db-row{
+	height: auto;
+}
+.db-column {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 70px;
+	margin-bottom: 25px;
+}
+
+.db-margincolumn{
+	margin-bottom: 110px !important;
+}
+
+.db-event{
+	display: flex;
+	align-items: center;
+}
+.db-event .db-event-image{
+	width: 55px;
+	height: 55px;
+	border-radius: 50%;
+}
+
+.db-eventtitles-box{
+	margin-left: 15px;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.db-event .db-event-title{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.db-event-title {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	flex-direction: column;
+	font-family: "Product Sans Bold";
+	font-size: 5vmin;
+	color: var(	--maindarktextcolor);
+}
+
+.db-eventlocation-title{
+	color: var(--maintextcolor);
+}
+

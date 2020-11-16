@@ -1,0 +1,85 @@
+.text {
+    color: var(--mainorange);
+    font-weight: bold;
+    text-align: center;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+.register-p {
+    margin: 15px 0px 15px 15px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.account-title {
+    display: block;
+    font-family: 'Product Sans Bold';
+    font-size: 5vmin;
+    color: var(--maintextcolor);
+    margin: 2vh 0 5vh 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.agree-text {
+    font-weight: bolder;
+    font-size: 12px;
+}
+
+.login-text{
+    margin-bottom: 50px;
+}
+
+.terms-conditions-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.terms-conditions-checkbox:checked ~ .checkmark{
+    background: var(--mainorange);
+    border-color: var(--mainorange);
+}
+
+.terms-conditions-checkbox{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    height: 100%;
+}
+
+.checkbox-holder{
+    position: relative;
+}
+
+.checkmark{
+    display: block;
+    position: relative;
+    width: 28px;
+    height: 28px;
+    border-radius: 5px;
+    border: 2px solid var(--maindarktextcolor);
+    transition: all 200ms cubic-bezier(0.06, 0.79, 0.54, 1.02);
+}
+
+.checkmark::after{
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 17px;
+    transform: translate(-50%, -50%) rotateZ(40deg);
+    border-right: 2px solid white;
+    border-bottom: 2px solid white;
+    top: 40%;
+    left: 50%;
+}
+
+
+/* 
+background-color: rgb(var(--mainorange, 33, 150, 243));
+border-color: var(--mainorange); */

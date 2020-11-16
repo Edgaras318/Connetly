@@ -1,0 +1,44 @@
+{
+	"name": "sm_frontend",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"@material-ui/system": "^4.9.14",
+		"@testing-library/jest-dom": "^4.2.4",
+		"@testing-library/react": "^9.3.2",
+		"@testing-library/user-event": "^7.1.2",
+		"axios": "^0.19.2",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1",
+		"react-icons": "^3.10.0",
+		"react-router": "^5.1.2",
+		"react-router-dom": "^5.1.2",
+		"react-scripts": "3.4.1"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build-sw": "node ./src/sw-build.js",
+		"clean-cra-sw": "rimraf build/precache-manifest.*.js && rimraf build/service-worker.js",
+		"build": "react-scripts build && npm run build-sw && npm run clean-cra-sw",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": "react-app"
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"workbox-build": "^5.1.3"
+	}
+}

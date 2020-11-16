@@ -1,0 +1,18 @@
+#server:
+#  port: 7575
+### =======================================
+### = Spring Configuration
+### =======================================
+#spring:
+#  application:
+#    name: smartmobile
+#  datasource:
+#    url: ec2-54-247-89-181.eu-west-1.compute.amazonaws.com
+#    username: xcbmogsaimztrp
+#    password: 7b997393e18ea7108748e49ecf9ac293cfe787f1422034661a8d95d141d70d08
+#    driver-class-name: org.postgresql.Driver
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#    properties:hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect

@@ -1,0 +1,57 @@
+.text {
+    color: var(--mainorange);
+    font-weight: bold;
+}
+
+.login-p {
+    text-align: center;
+    color: var(--maintextcolor);
+    margin:10px 0;
+    height:35px;
+    font-size:15px;
+}
+.login-title{
+    display: block;
+    font-family: 'Product Sans Bold';
+    font-size: 5vmin;
+    color: var(--maintextcolor);
+    margin: 5vh 0 5vh 0;
+    text-align: center;
+}
+.forgot-text{
+    font-weight: bolder;
+    font-size: 14px;
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: var(--maintextcolor)
+
+}
+
+.forgot-text:visited{
+    color: var(--maintextcolor);
+}
+
+.separator {
+    display: flex;
+    font-weight: bolder;
+    font-size: 14px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: var(--maintextcolor);
+    align-items: center;
+    text-align: center;
+}
+.separator::before, .separator::after {
+    content: '';
+    flex: 1;
+    border-bottom: 2.5px solid var(--maintextcolor);
+}
+.separator::before {
+    margin-right: 13px;
+}
+.separator::after {
+    margin-left: 13px;
+}
+
+
